@@ -1,0 +1,42 @@
+# Xcode user data and build files
+**/dgph
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+xcuserdata/
+
+# Exceptions (allow default project settings)
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+
+# Derived data, build system outputs
+**/DerivedData/
+**/*sync/
+**/.vagrant/
+.sconsign.dblite
+.tags*
+
+# CocoaPods
+**/Pods/
+**/.symlinks/
+
+# Flutter intermediates
+Flutter/App.framework
+Flutter/Flutter.framework
+Flutter/Flutter.podspec
+Flutter/Generated.xcconfig
+Flutter/ephemeral/
+Flutter/app.flx
+Flutter/app.zip
+Flutter/flutter_assets/
+Flutter/flutter_export_environment.sh
+
+# Misc
+Icon?
+profile
+ServiceDefinitions.json
+Runner/GeneratedPluginRegistrant.*

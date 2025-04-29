@@ -1,0 +1,41 @@
+# Flutter/Dart related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.flutter-*
+generated_plugin_registrant.dart
+
+# iOS-specific (delegated mostly to ios/.gitignore, but may have paths here too)
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.framework
+ios/Flutter/app.dSYM
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
+ios/ServiceDefinitions.json
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/*.iml
+
+# macOS/Linux/IDE files
+.DS_Store
+.idea/
+*.iml
+*.swp
+.vscode/
+
+# Backend-specific 
+admin-scripts/node_modules/
+admin-scripts/.env
+/admin-scripts/serviceAccountKey.json
+
+# Build and environment
+/bronco_shuttle_Driver-User/build/
+/bronco_shuttle_Driver-User/dist/
+/bronco_shuttle_Driver-User/.env
